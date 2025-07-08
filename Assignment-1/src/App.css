@@ -1,0 +1,45 @@
+.container
+{
+    background-color:#87A672;
+    width:100%;
+    height:710px;
+}
+.main
+{
+    background-color:#FFFFFF ;
+    width:50%;
+    height:500px;
+    margin:auto;
+    position:relative;
+    top:15%;
+    border-radius:10px;
+}
+.start
+{
+    position:relative;
+    top:16px;
+    left:10px;
+    font-family:arial;
+    color:"#464B57fontSize:"25px"
+}
+.heart
+{
+    font-size:40px;
+    margin-left:94%;
+    margin-top:-22px;
+}
+.img img
+{
+    height:350px;
+    width: 700px;
+    margin-top:3%;
+    border-radius: 15px;
+    margin-left:30px;
+}
+.footer-text
+{
+    font-size:21px;
+    color:#79866D;
+    margin-left:41%;
+    margin-top:23px;
+}
