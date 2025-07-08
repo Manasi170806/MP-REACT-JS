@@ -1,0 +1,85 @@
+body
+{
+    background-image: url("https://img.freepik.com/free-photo/solid-navy-blue-concrete-textured-wall_53876-124584.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+h1
+{
+    text-align: center;
+    color: whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    margin-top: 8%;
+}
+hr
+{
+    width: 37%;
+    border: 1px solid whitesmoke;
+    box-shadow: 0 4px 6px rgba(232, 229, 229, 0.441);
+}
+.minus,.plus
+{
+    background-color: whitesmoke;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 24px;
+    cursor: pointer;
+    width: 150px;
+    height: 50px;
+    border-radius: 7px;
+    margin-right: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    box-shadow: 0 4px 6px rgba(232, 229, 229, 0.441);
+    position: relative;
+    left: 38%;
+    top: 90px;
+}
+.reset
+{
+    background-color: #f74b4b;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 8%;
+    font-size: 22px;
+    font-weight: bold;
+    width: 250px;
+    position: relative;
+    left: 41%;
+    cursor: pointer;
+    border-radius: 7px;
+    transition: background-color 0.3s ease;
+    font-family: 'Courier New', Courier, monospace;
+    box-shadow: 0 4px 6px rgba(210, 110, 110, 0.601);   
+}
+.counter
+{
+    font-size: 60px;
+    color: rgb(185, 199, 159);
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    left: 48%;
+    top: 40px;
+    font-weight: bold;
+}
+.odd-or-even
+{
+    font-size: 30px;
+    color: whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    left: 37%;
+    top: 70px;
+}
+.is-prime
+{
+    font-size: 30px;
+    color: whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    left: 37%;
+    top: 100px;
+}

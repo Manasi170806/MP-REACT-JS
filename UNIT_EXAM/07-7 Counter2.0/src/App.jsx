@@ -1,4 +1,5 @@
 import { useState } from "react";
+import style from "./Styles/App.css";
 
 function App() {
 
@@ -14,18 +15,19 @@ function App() {
   return (
     <div>
       <h1>Welcome to Counter 2.0</h1>
+      <hr />
       <div>
-        <button data-testid="minusonebtn" onClick={() => setCount(count - 1) } disabled={count===0}>-1</button>
-        <button data-testid="plusonebtn" onClick={() =>  setCount(count + 1) }>+1</button>
+        <button data-testid="minusonebtn" className="minus" onClick={() => setCount(count - 1) } disabled={count===0}>-1</button>
+        <button data-testid="plusonebtn" className="plus" onClick={() =>  setCount(count + 1) }>+1</button>
         <div>
-          <button data-testid="resetbtn" onClick={()=> setCount(0)}>Reset Count</button>
+          <button data-testid="resetbtn" className="reset" onClick={()=> setCount(0)}>Reset Count</button>
         </div>
       </div>
-      <span data-testid="counter">{count}</span>
+      <span className="counter" data-testid="counter">{count}</span>
       <div>
-        <span data-testid="odd-or-even">This Number is:{count % 2 === 0 ? "Even" : "Odd"}</span>
+        <span className="odd-or-even" data-testid="odd-or-even">This Number is : {count % 2 === 0 ? "Even" : "Odd"}</span>
         <br />
-        <span data-testid="is-prime">Prime Number:{isPrime(count).toString()}</span>
+        <span className="is-prime" data-testid="is-prime">Prime Number : {isPrime(count).toString()}</span>
       </div>
     </div>
   );
