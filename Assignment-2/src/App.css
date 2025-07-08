@@ -1,0 +1,46 @@
+.ment-btns-I,.menu-btns-II{
+  display: grid;
+  grid-template-columns: 100px 100px;
+  grid-template-rows: auto auto;
+  grid-gap: 20px;
+}
+.card-container {
+  display: flex;
+  margin: auto;
+}
+.mobile
+{
+  background-color: rgb(182, 202, 202);
+  height: 690px;
+  width: 100%;
+}
+.content
+{
+  background-color: black;
+}
+.title
+{
+  margin-left: 19%;
+  padding-top: 10%;
+}
+.heading
+{
+  margin-left: 60%;
+  margin-top: -18.5%;
+}
+.sub-title
+{
+  margin-left: 19%;
+  margin-top: 3%;
+  font-size: 19px;
+}
+li
+{
+  padding: 10px 0px;
+}
+.sub-heading
+{
+  margin-left: 60%;
+   margin-top: 3%;
+  font-size: 19px;
+}
