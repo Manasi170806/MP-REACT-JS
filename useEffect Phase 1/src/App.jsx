@@ -5,16 +5,19 @@ import axios from 'axios'
 
 function App() {
   const [posts, setposts] = useState([])
-  const [loading, setLoading] = useState(true)
-  const [error, setError] = useState(null)
+  const [loading, setLoading] = useState(false)
+  const [error, setError] = useState("")
+  const [page, setPage] = useState(1)
 
   const getDataFromServer = async () => {
+    setLoading(true)
     try {
-      const response = await axios.get("https://jsonplaceholder.typicode.com/posts")
+      const response = await axios.get(`https://jsonplaceholder.typicode.com/posts?_limit=10&_page=${page}`)
       setposts(response.data)
       setLoading(false)
     } catch (error) {
-      setError("Data Not Found!")
+      setError(error.message)
+      setLoading(false)
     }
   }
 
@@ -23,16 +26,16 @@ function App() {
   }, [])
 
 
-  return (
+  return loading ? <h1>Loading...</h1> : error ? <h1>{error}</h1> : (
     <div className="App">
       <h1>Posts</h1>
       <hr />
-      {loading && <p>Loading...</p>}
-      {error && <p>{error}</p>}
-
       {posts.map((el, i) => (
         <Card key={el.id} id={el.id} title={el.title} body={el.body} />
       ))}
+      <button onClick={() => setPage(page - 1)} disabled={page === 1}>PREVIOUS</button>
+      <span>{page}</span>
+      <button onClick={() => setPage(page + 1)} disabled={posts.length < 10}>NEXT</button>
     </div>
   )
 }
