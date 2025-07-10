@@ -1,6 +1,6 @@
 function Card({ id, title, body }) {
   return (
-    <div>
+    <div className="card">
       <p>{id}</p>
       <p>{title}</p>
       <p>{body}</p>

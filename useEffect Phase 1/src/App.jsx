@@ -23,19 +23,20 @@ function App() {
 
   useEffect(() => {
     getDataFromServer()
-  }, [])
+  }, [page])
 
 
   return loading ? <h1>Loading...</h1> : error ? <h1>{error}</h1> : (
     <div className="App">
-      <h1>Posts</h1>
+      <div className="title">POSTS ARE HERE...</div>
       <hr />
+      <hr style={{ width: "40%", marginLeft: "34%", border: "3px solid #F8FEFF", marginTop: "-8%" }} />
       {posts.map((el, i) => (
         <Card key={el.id} id={el.id} title={el.title} body={el.body} />
       ))}
       <button onClick={() => setPage(page - 1)} disabled={page === 1}>PREVIOUS</button>
       <span>{page}</span>
-      <button onClick={() => setPage(page + 1)} disabled={posts.length < 10}>NEXT</button>
+      <button onClick={() => setPage(page + 1)} disabled={page == posts.length}>NEXT</button>
     </div>
   )
 }
