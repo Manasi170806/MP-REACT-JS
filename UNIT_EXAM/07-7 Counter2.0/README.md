@@ -6,39 +6,53 @@
 **✨ Key Features**
 
 ✅ Increment/Decrement with smooth transitions (➕➖)
+
 ✅ Reset functionality for quick restarts (🔄)
+
 ✅ Fully responsive design (📱💻)
+
 ✅ Customizable themes & animations (🎨✨)
+
 ✅ Error boundaries & edge-case handling (🛡️)
 
 
 **🛠 Tech Stack**
 
 ⚛️ React.js (Functional Components + Hooks)
+
 🎨 Styled-Components/CSS Modules for styling
+
 📦 React-Icons for beautiful icons
+
 🚀 Vite/Create-React-App for blazing-fast builds
 
 
 **📌 Use Cases**
 
 ✔ Fitness tracking (🏋️ Count reps, sets, or workouts)
+
 ✔ Inventory management (📦 Track stock levels)
+
 ✔ Educational tool (📚 Learn React state management)
 
 
 **🌟 Why Choose Counter 2.0?**
 
 🔹 Built with modern React best practices
+
 🔹 Clean, reusable, and modular code
+
 🔹 Perfect for beginners to learn React hooks (useState, useEffect)
 
 
 **🚀 Getting Started**
 
 1️⃣ Clone the repo
+
 2️⃣ npm install
+
 3️⃣ npm start
+
 4️⃣ Start counting! 🎉
 
 
