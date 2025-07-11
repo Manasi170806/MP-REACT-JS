@@ -1,20 +1,3 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-
-
-
-
-
 # Phase 1
 
 1. Build an application that'll fetch the posts data from [json placeholder api](https://jsonplaceholder.typicode.com/posts)  on mount (first time ui loaded on browser) and displays the same onto UI
@@ -39,3 +22,14 @@ So basically `useEffect` callback gets called only
 
 1. during mount phase
 2. whenever the value `page` updates
+
+
+
+
+ Posts Output
+
+
+
+PROJECT EXPLAIN VIDEO :
+
+MP-
