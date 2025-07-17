@@ -1,7 +1,11 @@
 /* General Accordion Styles */
 body
 {
-  background-color: aqua;
+  background-image: url("https://media.istockphoto.com/id/1872087220/video/abstract-neon-glow-frame-and-movement-of-digital-particles-and-plexus-stage-for-product.jpg?s=640x640&k=20&c=VJRRwO2TOinSifQT1aCo1d0O9rcvDlnkvLT0IKKeBdo=");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 20%;
 }
 .accordion {
   width: 100%;
@@ -11,6 +15,7 @@ body
   border: 1px solid #ddd;
   border-radius: 8px;
   background-color: #f9f9f9;
+  margin-top: 1%;
 }
 
 /* Accordion Item Styles */
@@ -19,6 +24,7 @@ body
   border: 1px solid #ddd;
   border-radius: 5px;
   background-color: #fff;
+  
 }
 
 /* Accordion Title Button */
