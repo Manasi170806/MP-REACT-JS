@@ -1,32 +1,43 @@
 /* General Accordion Styles */
-body
-{
-  background-image: url("https://media.istockphoto.com/id/1872087220/video/abstract-neon-glow-frame-and-movement-of-digital-particles-and-plexus-stage-for-product.jpg?s=640x640&k=20&c=VJRRwO2TOinSifQT1aCo1d0O9rcvDlnkvLT0IKKeBdo=");
+body {
+  background-image: url("https://img.freepik.com/free-photo/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner_1258-72582.jpg?semt=ais_hybrid&w=740");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  margin-top: 20%;
+  margin-top: 8%;
+}
+h1 {
+  text-align: center;
+  color: whitesmoke;
+  font-family: "Arial", sans-serif;
+  margin-bottom: 20px;
+  margin-top: -5%;
+  font-size: 50px;
+}
+hr {
+  width: 18%;
+  margin: auto;
+  border: 2px solid #ece8e8;
+  margin-bottom: 20px;
+  margin-bottom: 90px;
 }
 .accordion {
   width: 100%;
-  max-width: 400px;
+  max-width: 450px;
   margin: auto;
   padding: 20px;
-  border: 1px solid #ddd;
+
   border-radius: 8px;
   background-color: #f9f9f9;
   margin-top: 1%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
-
 /* Accordion Item Styles */
 .accordion-item {
-  margin-bottom: 10px;
   border: 1px solid #ddd;
   border-radius: 5px;
   background-color: #fff;
-  
 }
-
 /* Accordion Title Button */
 .accordion-title {
   width: 100%;
@@ -39,23 +50,22 @@ body
   font-size: 16px;
   font-weight: bold;
   transition: background-color 0.3s ease;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #333;
 }
-
 .accordion-title:hover {
   background-color: #e0e0e0;
 }
-
 .accordion-title[aria-expanded="true"] {
   background-color: #d0d0d0;
 }
-
 .accordion-content {
-  padding: 15px;
+  padding: 8px;
   background-color: #fafafa;
   border-top: 1px solid #ddd;
   font-size: 14px;
 }
-
 .accordion p {
   font-size: 16px;
   color: #666;
