@@ -55,4 +55,47 @@ npm run start
     - Apple
 
 
+**📱 Mobile Tech Ecosystem – OS & Manufacturers Overview (2025) 🔍**
+
+**About This Project**
+
+This repository serves as an up-to-date reference guide for mobile operating systems and manufacturers, highlighting key players in the industry. Whether you're a developer, tech enthusiast, or researcher, this resource helps you stay informed about the evolving mobile landscape.
+
+**📲 Mobile Operating Systems Covered**
+
+Android 🤖 (Google) – The most widely used OS globally.
+
+BlackBerry (Legacy) 🖤 – Known for its security-focused legacy devices.
+
+iPhone (iOS) 🍏 (Apple) – The premium, ecosystem-driven OS.
+
+Windows Phone (Discontinued) ⊞ – Microsoft’s former mobile platform.
+
+**🏭 Leading Mobile Manufacturers**
+
+Samsung 📱 – Android flagship leader & foldable innovator.
+
+HTC (Legacy) 🎛️ – Early Android pioneer & VR contributor.
+
+Micromax (India-focused) 🇮🇳 – Budget smartphone provider.
+
+Apple 🍏 – The iPhone maker with a closed ecosystem.
+
+**🚀 Why This Matters?**
+
+Compare OS architectures & market trends.
+
+Study manufacturer strategies & historical shifts.
+
+Ideal for devs targeting cross-platform compatibility.
+
+#MobileTech #Android #iOS #Smartphones #TechTrends #OperatingSystems #Manufacturers #LegacyTech #WindowsPhone #BlackBerry #OpenSource #MobileDevelopment
+
+
+
+**Mobile OS Output**
+
+<img width="1920" height="838" alt="Screenshot (60)" src="https://github.com/user-attachments/assets/39f2d3e7-362c-47b0-a30b-648c80da5e10" />
+
+
 
