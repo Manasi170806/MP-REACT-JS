@@ -1,12 +1,45 @@
-# React + Vite
+**🌟 User Profile Showcase – Social Media Analytics Dashboard 🚀**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**About This Project**
 
-Currently, two official plugins are available:
+This User Display interface highlights key profile metrics in a clean, modern layout—perfect for social media apps, community platforms, or analytics dashboards. The design focuses on user engagement, followership trends, and interactive actions (like Follow buttons).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**👤 Featured Profile:** Manasi Patel
 
-## Expanding the ESLint configuration
+📍 Gujarat, India
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**📊 Stats:**
+
+4.5K Followers 👥
+
+4.8K Following 🔄
+
+120 Posts 📸
+
+1.8K Likes ❤️
+
+**🔘 Action Button:** Follow (Toggle state for UX/API integration)
+
+**💡 Key Features**
+
+✔️ Minimalist UI – Prioritizes readability & quick scanning.
+
+✔️ Engagement Metrics – Tracks followers, posts, and likes.
+
+✔️ Geotagging – Displays user location for context.
+
+✔️ Interactive Elements – Ready for backend integration.
+
+**🛠️ Use Cases**
+
+Social media apps (Instagram/Twitter clones).
+
+Community dashboards (forums, creator platforms).
+
+Analytics tools (influencer tracking).
+
+#UserProfile #SocialMediaUI #DashboardDesign #FollowButton #WebDev #Frontend #UXDesign #Coding #GitHub #IndiaTech #OpenSource
+
+**Users Display Output**
+
+<img width="1920" height="892" alt="Screenshot (61)" src="https://github.com/user-attachments/assets/a1e4032e-30be-4764-bf26-888d64e773e7" />
