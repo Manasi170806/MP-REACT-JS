@@ -20,12 +20,12 @@ const StudentFormSchema = object({
 function StudentForm() {
     const formik = useFormik({
         initialValues, validationSchema: StudentFormSchema,
-        onSubmit: (values) => {
+        onSubmit: (values, { resetForm }) => {
             console.log(values)
-            formik.resetForm();
+            resetForm();
         },
     });
-
+console.log(formik)
 
     return (
         <div>
