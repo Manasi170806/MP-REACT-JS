@@ -1,19 +1,32 @@
+body 
+{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQciOYyberU_Oud7e7WRguNDgzEWqh5Rv_yaA&s");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height: 100vh;
+}
 .container
 {
     border-radius: 18px;
     height: 550px;
-    background-color: #FFFFFF;
-    border: 2px solid #000000;
+    background-color: #d6d4d4;
+    border: 1px solid #000000;
     margin: auto;
 }
 .title
 {
-    color: blue;
+    color: rgb(164, 164, 206);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
 }
 .btn
 {
-    margin-top: 55%;
-    margin-left: 10%;
+    margin-top: -35%;
+    margin-left: 5%;
 }
 .btn:hover
 {
@@ -25,6 +38,20 @@ img
     width: 45%;
     height: auto;
     border-radius: 10px;
-    margin-top: -51.3%;
-    margin-left: 51%;
+    margin-top: -428px;
+    margin-left: 55%;
+}
+.text-container
+{
+    margin-top: 20%;
+    text-align: center;
+    width: 58%;
+    margin-top: 14%;
+    margin-left: 10px;
+    padding: 20px;
+}
+.icons a 
+{
+    color: rgb(98, 97, 97);
+    transition: color 0.3s ease;
 }
